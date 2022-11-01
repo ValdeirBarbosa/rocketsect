@@ -1,7 +1,7 @@
 body {
-  margin: 71px 89px;
+  margin: auto 71px;
   display: flex;
-  height: 80vh;
+  height: 100vh;
   flex-direction: column;
   font-family: "JetBrains Mono", monospace;
   background: #2f2e41;
@@ -19,14 +19,14 @@ header ul {
   list-style: none;
 }
 
-ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    opacity: 0.5;
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.5;
 }
-li a:hover{
-    font-weight: bold;
-    opacity: 1;
+li a:hover {
+  font-weight: bold;
+  opacity: 1;
 }
 
 main {
@@ -80,7 +80,7 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
-  /* identical to box height, or 200% */
+  margin-top: auto;
 
   text-align: center;
   display: flex;
